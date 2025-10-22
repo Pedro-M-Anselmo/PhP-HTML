@@ -12,16 +12,16 @@
 	<main class="container">
 	<h1>Cadastro de usuários</h1>
 
-	<form action="#" method="post">
+	<form action="include/cadastar.php" method="post">
 		<label for="primeiroNome">Primeiro nome</label>
 		<input type="text" name="primeiroNome" 
 		id="primeiroNome" placeholder="Primeiro nome ..."
-		maxlength="50" required autofocus>	
+		maxlength="50" required autofocus autocomplete="off">	
 		<div class="md-3">
 		<label for="segundoNome">Sobrenome</label>
 		<input type="text" name="segundoNome" 
 		id="segundoNome" placeholder="Sobrenome ..."
-		maxlength="50" required>
+		maxlength="50" required autofocus autocomplete="off">
 		</div>
 		<div class="md-3">
 		<label for="escolhaPets">Escolha seu Pet</label>
