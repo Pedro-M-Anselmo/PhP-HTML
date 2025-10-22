@@ -1,0 +1,49 @@
+*{
+	margin: 10px;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+	color: beige;
+}
+
+body{
+background-image: ;
+background-repeat: no-repeat;
+background-attachment: inherit;
+background-size: cover;
+
+}
+
+
+.container{
+background-color: darkolivegreen;
+width: 40%;
+padding: 30px;
+margin-top: 50px;
+border-width: 20px;
+border-color: black;
+border-radius: 10px
+
+}
+
+label{
+color: beige;
+margin-top: 10px;
+
+}
+
+input{
+margin-top: 10px;
+width: 100%;
+border-radius: 10px;
+padding: 10px;
+
+}
+
+button{
+color: darkolivegreen;
+width: 65px;
+height:30px ;
+border-radius: 10px;
+background-color: beige;
+}
